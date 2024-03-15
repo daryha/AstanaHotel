@@ -19,7 +19,7 @@ const ShopCardContainer = () => {
 				try {
 					
 					const response = await axios.get(
-						'https://backendtasty-291f2f48a6f8.herokuapp.com/api/stores/'
+						'https://tasty-priority-server-1482c4db125b.herokuapp.com/api/stores/'
 					)
 					setShops(response.data)
 				} catch (error) {
